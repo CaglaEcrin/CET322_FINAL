@@ -1,0 +1,405 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/obj/Debug/net8.0/scopedcss/projectbundle/TailMeal.bundle.scp.css",
+      "PackagePath": "staticwebassets/TailMeal.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/ÖdülMaması.jpg",
+      "PackagePath": "staticwebassets/images/ÖdülMaması.jpg"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/Yeni Proje.jpg",
+      "PackagePath": "staticwebassets/images/Yeni Proje.jpg"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/Yeni Proje1.jpg",
+      "PackagePath": "staticwebassets/images/Yeni Proje1.jpg"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/a.jpg",
+      "PackagePath": "staticwebassets/images/a.jpg"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/b.png",
+      "PackagePath": "staticwebassets/images/b.png"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/balıklı.jpg",
+      "PackagePath": "staticwebassets/images/balıklı.jpg"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/balıklıkedi.jpg",
+      "PackagePath": "staticwebassets/images/balıklıkedi.jpg"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/c.jpg.jpg",
+      "PackagePath": "staticwebassets/images/c.jpg.jpg"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/çatalkaşık.jpg",
+      "PackagePath": "staticwebassets/images/çatalkaşık.jpg"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/d.jpg",
+      "PackagePath": "staticwebassets/images/d.jpg"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/download.png",
+      "PackagePath": "staticwebassets/images/download.png"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/hindili.jpg",
+      "PackagePath": "staticwebassets/images/hindili.jpg"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/hindilikedi.jpg",
+      "PackagePath": "staticwebassets/images/hindilikedi.jpg"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/kargo.png",
+      "PackagePath": "staticwebassets/images/kargo.png"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/kuzulu.jpg",
+      "PackagePath": "staticwebassets/images/kuzulu.jpg"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/kuzulukedi.jpg",
+      "PackagePath": "staticwebassets/images/kuzulukedi.jpg"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/mama.jpg",
+      "PackagePath": "staticwebassets/images/mama.jpg"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/mama2.jpg",
+      "PackagePath": "staticwebassets/images/mama2.jpg"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/mama3.jpg",
+      "PackagePath": "staticwebassets/images/mama3.jpg"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/mama4.jpg",
+      "PackagePath": "staticwebassets/images/mama4.jpg"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/mama5.jpg",
+      "PackagePath": "staticwebassets/images/mama5.jpg"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/mama6.png",
+      "PackagePath": "staticwebassets/images/mama6.png"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/mamalar.jpg",
+      "PackagePath": "staticwebassets/images/mamalar.jpg"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/ödül mamasıköpek.jpg",
+      "PackagePath": "staticwebassets/images/ödül mamasıköpek.jpg"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/ödülkemiği.jpg",
+      "PackagePath": "staticwebassets/images/ödülkemiği.jpg"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/ödülkemiğikedi.jpg",
+      "PackagePath": "staticwebassets/images/ödülkemiğikedi.jpg"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/ördekli.jpg",
+      "PackagePath": "staticwebassets/images/ördekli.jpg"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/ördeklikedi.jpg",
+      "PackagePath": "staticwebassets/images/ördeklikedi.jpg"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/salata.png",
+      "PackagePath": "staticwebassets/images/salata.png"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/somonlu.jpg",
+      "PackagePath": "staticwebassets/images/somonlu.jpg"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/somonlukedi.jpg",
+      "PackagePath": "staticwebassets/images/somonlukedi.jpg"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/tavuklu.jpg",
+      "PackagePath": "staticwebassets/images/tavuklu.jpg"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/tavuklukedi.jpg",
+      "PackagePath": "staticwebassets/images/tavuklukedi.jpg"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/tencere.png",
+      "PackagePath": "staticwebassets/images/tencere.png"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/images/whatsapp-icon.png",
+      "PackagePath": "staticwebassets/images/whatsapp-icon.png"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/caglaecrin/RiderProjects/TailMeal/TailMeal/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.TailMeal.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.TailMeal.props",
+      "PackagePath": "build\\TailMeal.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.TailMeal.props",
+      "PackagePath": "buildMultiTargeting\\TailMeal.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.TailMeal.props",
+      "PackagePath": "buildTransitive\\TailMeal.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,79 @@
+﻿
+<!-- Hero Section -->
+<div class="hero-section">
+    <div class="hero-content">
+        <h2 class="fw-bold display-5">YENİ NESİL</h2>
+        <h1 class="fw-bold display-4">KEDİ & KÖPEK YEMEĞİ</h1>
+        <p class="text-danger fs-5 mt-3">KATKI MADDESİZ, DOĞAL, KAPIYA TESLİM</p>
+
+        <div class="mt-4 d-flex justify-content-center gap-3 flex-wrap">
+            <a href="/Products" class="btn btn-danger btn-lg fw-bold">HEMEN BAŞLA</a>
+            <a href="/Products/DenemePaketi" class="btn btn-success btn-lg fw-bold position-relative">
+                DENEME PAKETİ AL
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    YENİ
+                </span>
+            </a>
+
+        </div>
+    </div>
+</div>
+<section class="high-protein-section" style="background-color: #f8f7f7; padding: 40px 0;">
+    <div class="container text-center">
+        <h2 style="color: #888; margin-bottom: 40px;">
+            Yüksek proteinli tariflerimizin her biri, köpeğiniz için eksiksiz ve besleyici bir diyet sağlamak için özenle hazırlanmıştır.
+        </h2>
+
+        <div class="row justify-content-center">
+            @{
+                var foods = new[]
+                {
+                    new { Title = "Dana", Text = "Dananın döş etinden gücünü alan, kuvvetli protein ve enerji kaynağı. En popüler seçimiz", Img = "Dana.jpg" },
+                    new { Title = "Balık", Text = "Sardalya fileto, mineral ve vitamin zengini, Omega 3-6 deposu, cilt ve kürk sağlığı için mükemmel", Img = "Balık.jpg" },
+                    new { Title = "Hindi", Text = "Hindi göğüs eti, sağlıklı protein ve mineral kaynağı. Cilde dost, lezzetli bir seçenek", Img = "Hindi.jpg" },
+                    new { Title = "Tavuk", Text = "Tavuk göğüs ve ciğeri ile tam protein bombası! Sporcular için mükemmel seçim", Img = "Tavuk.jpg" },
+                    new { Title = "Kuzu", Text = "Kolay sindirilen, yüksek kaliteli protein. Vitamin ve mineral deposu lezzetli bir seçenek", Img = "Kuzu.jpg" }
+                };
+            }
+
+            @foreach (var food in foods)
+            {
+                <div class="col-md-2 col-6 mb-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="~/images/@food.Img" alt="@food.Title" class="card-img-top rounded-circle" style="padding: 10px;" />
+                        <div class="card-body">
+                            <h5 class="card-title">@food.Title</h5>
+                            <p class="card-text">@food.Text</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img src="~/images/tencere.png" alt="Pişirme" width="40" class="me-3" />
+                    <span>Her türlü bakteri ve virüsten korunması için nazikçe pişirerek besin değerlerini koruyoruz.</span>
+                </div>
+            </div>
+            <div class="col-md-6 mt-3 mt-md-0">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img src="~/images/çatalkaşık.jpg" alt="Yemek" width="40" class="me-3" />
+                    <span>Yemeklerimiz sizin yemeniz için bile uygun ama özellikle tüylü dostlarımız için formüle edilmiştir.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="served-section text-center" style="background-color: #ffffff; padding: 60px 20px; margin: 0; overflow: hidden;">
+    <div class="container" style="margin: 0 auto; padding: 0;">
+        <p style="font-size: 20px; color: #222; margin: 0;">5 yılda tam</p>
+        <h1 style="font-size: 72px; font-weight: 800; color: #F26A4B; margin: 10px 0;">4.826.615</h1>
+        <p style="font-size: 28px; font-weight: 600; color: #000; margin: 0;">Happy Tail öğün servis edildi.</p>
+    </div>
+    <div style="margin-top: 50px; padding: 0; overflow: hidden;">
+        <img src="~/images/Yeni Proje1.jpg" alt="Happy pets" style="display: block; width: 100%; height: auto; margin: 0; padding: 0;" />
+    </div>
+</section>
+

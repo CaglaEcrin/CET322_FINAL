@@ -1,0 +1,20 @@
+@model List<TailMeal.Models.Blog>
+
+<h1 class="mt-4">Tüm Bloglar</h1>
+
+<div class="row">
+    @foreach (var blog in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="@blog.ImageUrl" class="card-img-top" alt="@blog.Title" />
+                <div class="card-body">
+                    <h5 class="card-title">@blog.Title</h5>
+                    <p class="card-text">@blog.Excerpt</p>
+                    <p class="text-muted"><small>@blog.CreatedAt.ToShortDateString()</small></p>
+                    <a href="#" class="btn btn-sm btn-primary">Devamını Oku</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

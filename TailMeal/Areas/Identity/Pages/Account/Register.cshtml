@@ -1,0 +1,59 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Evcil Hayvan Sahibi Kayıt Ol";
+}
+
+<style>
+    body {
+        background-image: url('/images/b.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .card {
+        background-color: rgba(255, 255, 255, 0.85);
+    }
+</style>
+<br><br>
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm border-0">
+                <div class="card-body">
+                    <h2 class="text-center mb-4 text-success">Evcil Hayvan Sahibi Kayıt Ol</h2>
+                    <form method="post">
+                        <div asp-validation-summary="All" class="text-danger"></div>
+
+                        <div class="mb-3">
+                            <label asp-for="Input.Email" class="form-label">E-posta</label>
+                            <input asp-for="Input.Email" class="form-control" />
+                            <span asp-validation-for="Input.Email" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Input.Password" class="form-label">Şifre</label>
+                            <input asp-for="Input.Password" class="form-control" />
+                            <span asp-validation-for="Input.Password" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Input.ConfirmPassword" class="form-label">Şifre (Tekrar)</label>
+                            <input asp-for="Input.ConfirmPassword" class="form-control" />
+                            <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-success w-100">Kayıt Ol</button>
+
+                        <div class="mt-3 text-center">
+                            <a asp-page="./Login">Zaten hesabınız var mı? Giriş Yap</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

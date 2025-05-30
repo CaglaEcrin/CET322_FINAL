@@ -1,0 +1,242 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            background-color: #fdf2e9 !important;
+        }
+    </style>
+
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>@ViewData["Title"] - TailMeal</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+
+    <!-- İsteğe bağlı: kendi stillerin varsa -->
+    <link rel="stylesheet" href="~/css/site.css"/>
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .hero-section {
+            background-image: url('/images/d.jpg');
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            text-align: center;
+            color: #000;
+        }
+
+        .hero-content {
+            z-index: 2;
+        }
+
+        .navbar {
+            z-index: 999;
+        }
+    </style>
+
+</head>
+<body>
+
+
+@{
+    ViewData["Title"] = "Anasayfa";
+}
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+    <div class="container-fluid">
+        <a class="navbar-brand fw-bold text-danger" href="#">Tail Meal</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+            <ul class="navbar-nav">
+
+                <li class="nav-item">
+                    <a asp-controller="Home" asp-action="Index" class="btn btn-outline-dark">ANASAYFA</a>
+
+                </li>
+
+                <li class="nav-item">
+                    <a asp-controller="Home" asp-action="BizimHikayemiz" class="btn btn-outline-dark">BİZİM HİKAYEMİZ</a>
+
+                </li>
+
+                <li class="nav-item">
+                    <a asp-controller="Products" asp-action="Index" class="btn btn-outline-dark">ÜRÜNLERİMİZ</a>
+
+                </li>
+
+                
+
+            </ul>
+
+
+            @if (SignInManager.IsSignedIn(User))
+            {
+                <ul class="navbar-nav ms-auto d-flex align-items-center">
+                    <li class="nav-item me-3">
+                        <span class="nav-link text-dark fw-semibold">Merhaba, @User.Identity.Name!.Split('@')[0]</span>
+                    </li>
+
+                    <li class="nav-item me-3 position-relative">
+                        <a asp-controller="Sepet" asp-action="Index" class="nav-link position-relative">
+                            <i class="bi bi-cart-fill fs-4"></i>
+                            <span id="cart-count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    0
+                </span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                            <button type="submit" class="btn btn-outline-dark btn-sm">Çıkış</button>
+                        </form>
+                    </li>
+                </ul>
+            }
+            else
+            {
+                <ul class="navbar-nav ms-auto d-flex align-items-center">
+                    <li class="nav-item me-2">
+                        <a class="btn btn-outline-dark btn-sm" asp-area="Identity" asp-page="/Account/Login">GİRİŞ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-outline-dark btn-sm" asp-area="Identity" asp-page="/Account/Register">KAYIT OL</a>
+                    </li>
+                </ul>
+            }
+        </div>
+
+
+
+        </div>
+    </div>
+</nav>
+
+
+@RenderBody()
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+@RenderSection("scripts",false)
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div aria-live="polite" aria-atomic="true" class="position-relative">
+        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+            <div class="toast align-items-center text-white bg-success border-0 show" role="alert">
+                <div class="d-flex">
+                    <div class="toast-body">
+                        @Html.Raw(TempData["SuccessMessage"])
+                    </div>
+                    <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div aria-live="polite" aria-atomic="true" class="position-relative">
+        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+            <div class="toast align-items-center text-white bg-danger border-0 show" role="alert">
+                <div class="d-flex">
+                    <div class="toast-body">
+                        @Html.Raw(TempData["ErrorMessage"])
+                    </div>
+                    <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        fetch("/Sepet/GetCartCount")
+            .then(response => response.json())
+            .then(data => {
+                const countSpan = document.getElementById("cart-count");
+                if (data.count > 0) {
+                    countSpan.textContent = data.count;
+                } else {
+                    countSpan.style.display = 'none';
+                }
+            });
+    });
+</script>
+
+
+</body>
+</html>
+<footer class="bg-dark text-white mt-5 pt-4 pb-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h5>HAPPY TAIL</h5>
+                <ul class="list-unstyled">
+                    <li><a asp-controller="Home" asp-action="Index" class="text-white">Anasayfa</a></li>
+                    <li><a asp-controller="Home" asp-action="BizimHikayemiz" class="text-white">Bizim Hikayemiz</a></li>
+                    <li><a asp-controller="Products" asp-action="Index" class="text-white">Ürünlerimiz</a></li>
+                   
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h5>HESABIM</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white">Giriş</a></li>
+                    <li><a href="#" class="text-white">Siparişlerim</a></li>
+                    <li><a href="#" class="text-white">Mesafeli Satış Sözleşmesi</a></li>
+                    <li><a href="#" class="text-white">İptal İade Koşulları</a></li>
+                    
+                    
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5>DESTEK</h5>
+                <ul class="list-unstyled">
+                    <li><a href="mailto:hello@tailmeal.pet" class="text-white">hello@tailmeal.pet</a></li>
+                    <li><span class="text-white">0216 390 95 05</span></li>
+                    <li><a href="#" class="text-white">Gizlilik</a></li>
+                    <li><a href="#" class="text-white">SSS</a></li>
+                  
+                    
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>WHATSAPP HATTI</h5>
+                <p class="text-white">0216 390 95 05</p>
+                <p>Tail Meal’den haberler, harika kedi köpek önerileri ve iştah açıcı güncellemelerini alın</p>
+                <form class="d-flex">
+                    <input type="email" class="form-control me-2" placeholder="E-posta adresinizi yazın">
+                    <button class="btn btn-success" type="submit">Gönder</button>
+                </form>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <p class="mb-0">Happytail.Pet Tüm Hakları Saklıdır © 2017-2018</p>
+            <p class="mb-0">Kredi kartı bilgileriniz 2048bit SSL sertifikası ile korunmaktadır.</p>
+            <img src="/images/download.png" alt="Ödeme Güvenliği" style="height: 30px;" />
+        </div>
+    </div>
+</footer>

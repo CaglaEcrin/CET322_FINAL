@@ -1,0 +1,54 @@
+@model TailMeal.Models.Product
+
+
+<h2>title</h2>
+@{
+    ViewData["Title"] = "Deneme Paketi Satın Al";
+    Layout = "_Layout";
+
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <!-- Ürün Görseli -->
+        <div class="col-md-6">
+            <img src="/images/mamalar.jpg" alt="Deneme Paketi" class="img-fluid rounded shadow">
+        </div>
+
+        <!-- Ürün Bilgisi ve Sipariş Formu -->
+        <div class="col-md-6">
+            <h2>Deneme Paketi</h2>
+            <p>Kutu içerisinde dana, balık, hindi, kuzu ve tavuktan oluşan 100'er gramlık toplam 10 paket bulunmaktadır.</p>
+            <p><strong>Fiyat:</strong> 199.90 TL</p>
+
+            <form asp-controller="Sepet" asp-action="SepeteEkle" method="post">
+                <input type="hidden" name="productId" value="1007" />
+
+                <div class="form-group">
+                    <label for="adet">Adet:</label>
+                    <div class="input-group w-50">
+                        <button type="button" class="btn btn-outline-secondary" onclick="decreaseQuantity()">-</button>
+                        <input type="number" id="quantity" name="quantity" value="1" min="1" class="form-control text-center" />
+                        <button type="button" class="btn btn-outline-secondary" onclick="increaseQuantity()">+</button>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-success mt-3">Sepete Ekle</button>
+                
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Quantity script -->
+<script>
+    function decreaseQuantity() {
+        const input = document.getElementById("quantity");
+        if (input.value > 1) input.value--;
+    }
+
+    function increaseQuantity() {
+        const input = document.getElementById("quantity");
+        input.value++;
+    }
+</script>

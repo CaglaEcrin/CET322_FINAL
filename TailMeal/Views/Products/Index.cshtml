@@ -1,0 +1,74 @@
+@model List<TailMeal.Models.Product>
+
+@{
+    ViewData["Title"] = "Ürünler";
+}
+
+<section class="py-5" style="background-color: #fdf2e9;">
+<div class="container mt-5">
+    <br>
+
+    <h2 class="text-center mb-4">Kedi & Köpek Mamaları</h2>
+
+    @if (User.Identity != null && User.Identity.Name == "admin@tailmeal.com")
+    {
+        <div class="row">
+            <div class="col-12 d-flex justify-content-end mb-3">
+                <a class="btn btn-success" href="@Url.Action("Index", "ProductAdmin")">Create New</a>
+            </div>
+        </div>
+    }
+
+  
+
+
+    <div class="text-center mb-4">
+        <a asp-controller="Products" asp-action="Index" class="btn btn-outline-secondary">Tüm Mamalar</a>
+        <a href="/Products?category=kedi" class="btn btn-outline-primary me-2">Kedi Mamaları</a>
+        <a href="/Products?category=köpek" class="btn btn-outline-success me-2">Köpek Mamaları</a>
+    </div>
+
+    <div class="row">
+        @if (Model.Count == 0)
+        {
+            <div class="col-12 text-center">
+                <p class="text-muted">Bu kategoride henüz ürün bulunmamaktadır.</p>
+            </div>
+        }
+        else
+        {
+            foreach (var product in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="@Url.Content(product.ImageUrl)" class="card-img-top" alt="@product.Name">
+                        <div class="card-body">
+                            <h5 class="card-title">@product.Name</h5>
+                            <p class="card-text">Kategori: @product.Category</p>
+                            <p class="card-text"><strong>@product.Price TL</strong></p>
+                            @if (User.Identity != null && User.Identity.IsAuthenticated)
+                            {
+                                <form asp-action="SepeteEkle" asp-controller="Sepet" method="post" class="w-100">
+                                    <input type="hidden" name="productId" value="@product.Id" />
+
+                                    <div class="input-group mb-2">
+                                        <input type="number" name="quantity" class="form-control" value="1" min="1" />
+                                        <button type="submit" class="btn btn-primary">Sepete Ekle</button>
+                                    </div>
+                                </form>
+
+                            }
+                            else
+                            {
+                                <a href="/Identity/Account/Login" class="btn btn-primary w-100">Sepete Ekle</a>
+                            }
+
+
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>
+</section>
